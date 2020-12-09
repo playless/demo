@@ -1,4 +1,5 @@
 import pytest
+
 def setup_function():
     pass
 def setup_module():
@@ -9,9 +10,9 @@ class TestDemo:
     def teardown_class(self):
         print("类结束之后执行")
     def setup_method(self):
-        print("每个用例开始之前运行")
+        print("计算开始")
     def teardown_method(self):
-        print("每个用例结束后执行")
+        print("计算结束")
     def test_one(self):
         a=5
         b=1
