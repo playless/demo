@@ -5,4 +5,6 @@ def getyanmdata():
         data=yaml.safe_load(f)
         # print(data)
     return data
-# getyanmdata()
+
+
+# print(getyanmdata()["myid"][0])
